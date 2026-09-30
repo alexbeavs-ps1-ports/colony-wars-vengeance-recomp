@@ -4,7 +4,9 @@ name = "Colony Wars: Vengeance"
 id = "SLUS-00722"
 players = 1
 exe = "disc/slus_007.22"
-disc = "disc/Colony Wars - Vengeance (USA).cue"
+disc = "disc/Colony Wars - Vengeance (USA, Canada).cue"
+discs = ["disc/Colony Wars - Vengeance (USA, Canada).cue"]
+disc_serials = ["SLUS-00722"]
 load_address = "0x80010000"
 entry_pc = "0x8005F298"
 text_size = "0x000C4000"
@@ -12,17 +14,20 @@ stack_base = "0x801FFFF0"
 
 [prepare_disc]
 out_dir = "disc"
-bin_name = "Colony Wars - Vengeance (USA).bin"
-cue_name = "Colony Wars - Vengeance (USA).cue"
+bin_name = "Colony Wars - Vengeance (USA, Canada) (Track 1).bin"
+cue_name = "Colony Wars - Vengeance (USA, Canada).cue"
 boot_exe = "slus_007.22"
-known_sizes = [608307168]
+known_sizes = [574398384, 608307168]
 known_md5 = [
+  "1d1f9a564ab93974e8891065fb5f2cb5",
   "7d7c09d840ae660ef6a8864fcae7e2bc",
 ]
 known_sha1 = [
+  "fed68f345d055312b5d4c07dcd9c0c3045916027",
   "05e7856ac5a236803039fb866b267bfee24a476a",
 ]
 known_crc32 = [
+  "3c4742b9",
   "e14a0f1a",
 ]
 
