@@ -1,0 +1,55 @@
+
+[game]
+name = "Colony Wars: Vengeance"
+id = "SLUS-00722"
+players = 1
+exe = "disc/slus_007.22"
+disc = "disc/Colony Wars - Vengeance (USA).cue"
+load_address = "0x80010000"
+entry_pc = "0x8005F298"
+text_size = "0x000C4000"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Colony Wars - Vengeance (USA).bin"
+cue_name = "Colony Wars - Vengeance (USA).cue"
+boot_exe = "slus_007.22"
+known_sizes = [608307168]
+known_md5 = [
+  "7d7c09d840ae660ef6a8864fcae7e2bc",
+]
+known_sha1 = [
+  "05e7856ac5a236803039fb866b267bfee24a476a",
+]
+known_crc32 = [
+  "e14a0f1a",
+]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH1001.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+openbios = false
+bios_hle = false
+window_title = "Colony Wars: Vengeance Recompiled"
+memcard_dir = "saves"
+overlay_cache = true
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 2
+required_disc_fp = "d33c2faa1a813bf13357b09cded2b143b4b575be86819d5138a9ec7ae28cd9b8"
+
+[pgo]
+enabled = false

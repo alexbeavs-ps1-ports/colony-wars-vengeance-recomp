@@ -1,0 +1,18 @@
+{
+  "disc_count": 1,
+  "verdict": "single",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Colony Wars - Vengeance (USA).cue",
+      "cue_path": "disc/Colony Wars - Vengeance (USA).cue",
+      "serial": "SLUS-00722",
+      "boot_exe": "slus_007.22",
+      "entry_pc": "0x8005F298",
+      "track_count": 2,
+      "required_disc_fp": "d33c2faa1a813bf13357b09cded2b143b4b575be86819d5138a9ec7ae28cd9b8"
+    }
+  ]
+}
