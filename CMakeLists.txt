@@ -42,6 +42,7 @@ psxrecomp_add_game_runtime(psx-runtime
     WINDOW_TITLE "Colony Wars: Vengeance"
     DEFAULT_GAME_CONFIG_PATH "game.toml"
     MAX_PLAYERS 1
+    APP_ICON "${CMAKE_CURRENT_SOURCE_DIR}/assets/psxrecomp.ico"
 
 
     GEN_MARKER "generated/slus_007.22_dispatch.c"

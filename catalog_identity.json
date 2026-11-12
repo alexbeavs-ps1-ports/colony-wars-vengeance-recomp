@@ -1,0 +1,46 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Colony Wars: Vengeance",
+    "id": "SLUS-00722",
+    "boot_exe": "slus_007.22"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Colony Wars - Vengeance (USA).cue",
+    "bin_name": "Colony Wars - Vengeance (USA).bin",
+    "track_counts": [
+      2
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 608307168,
+      "md5": "7d7c09d840ae660ef6a8864fcae7e2bc",
+      "sha1": "05e7856ac5a236803039fb866b267bfee24a476a",
+      "crc32": "e14a0f1a"
+    },
+    "disc_fp": "d33c2faa1a813bf13357b09cded2b143b4b575be86819d5138a9ec7ae28cd9b8"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x8005F298",
+    "text_size": "0x000C4000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 916,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
